@@ -1,0 +1,278 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header {
+    background-color: #004080;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo {
+    max-width: 90px;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    top: 50px; /* Altura do header */
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    
+  
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 15px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+    display: block;
+}
+
+a{
+    color: rgb(2, 2, 63)
+    
+    
+}
+
+a:hover {
+    color: darkgrey;
+    transition: 0.3s all;
+}
+
+h2{
+    color: rgb(1, 16, 99)
+}
+
+#button {
+
+padding: 8px;
+border-radius: 5px;
+background-color: #004080;
+color: #fff;
+border: none;
+
+
+}
+
+#button:hover{
+    background-color: #011f3d;
+    color: white;
+    transition: 0.3s all;
+}
+
+
+
+main {
+    margin-left: 160px; /* Largura do menu lateral */
+    padding: 20px;
+    width: calc(100% - 120px); /* Largura do conteúdo menos a largura do menu */
+    margin-top: 60px; /* Altura do header */
+    background-image: url(Imagens/light_noise_diagonal.png);
+    padding-bottom: 80px; /* Espaço adicional para evitar que o footer sobreponha o conteúdo */
+
+}
+
+.destaque img {
+    max-width: 100%;
+    height: auto;
+}
+.servicos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.servico {
+    text-align: center;
+    width: 30%;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    
+    
+}
+
+.servico img {
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+.tipo {
+    background-color: #004080;
+}
+
+.tipos-emprestimos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+  
+    
+}
+
+.emprestimo {
+    width: 48%;
+   
+}
+
+.simulacao-faq {
+    display: flex;
+    justify-content: space-between;
+}
+
+.simulacao {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.simulacao label {
+    display: block;
+    margin-top: 5px;
+}
+
+.simulacao select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.simulacao .resultado {
+    margin-top: 20px;
+}
+
+.simulacao button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.simulacao button:hover {
+    background-color: #003366;
+}
+
+.faq {
+    width: 45%;
+}
+
+.faq .pergunta {
+    margin-bottom: 20px;
+}
+
+.faq .pergunta h3 {
+    cursor: pointer;
+    margin: 0;
+    color: #004080;
+}
+
+.cadastro{
+    text-align: center;
+    
+}
+
+.cadastro form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    padding: 10px;
+
+   
+    
+}
+
+.cadastro label{
+    margin-top: 10px;
+    
+}
+
+.cadastro input, .cadastro select {
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: none;
+   
+}
+
+.cadastro button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+
+.cadastro button:hover {
+    background-color: #003366;
+}
+.descricao{
+    text-align: center;
+}
+
+footer {
+    background-color: #004080;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-left: 170px; /* Largura do menu lateral */
+    box-sizing: border-box;
+    border-radius: 10px;
+   
+}
+footer .social img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+

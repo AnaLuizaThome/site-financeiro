@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeira - Empréstimos</title>
+    <link rel="stylesheet" href="stylebanks.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <header>
+        <img src="Imagens/61f7cce967553f0004c53e6b.png" alt="Logo da Empresa" class="logo">
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html" ><li>Início</li></a><br>
+            <a href="emprestimos.html" ><li>Empréstimos</li></a>
+            <a href="#" ><li>Antecipação</li></a>
+            <a href="#" ><li>Financiamento</li></a>
+            <a href="sejanossocliente.html" ><li>Seja Nosso Cliente</li></a>
+        </ul>
+    </nav>
+    <main>
+        <section class="tipos-emprestimos">
+            <div class="emprestimo">
+                <h2>Empréstimo Pessoal</h2>
+                <img src="Imagens/happy-couple-having-meeting-with-real-estate-agent-analyzing-blueprints-while-communicating.jpg"Empréstimo Pessoal" class ="Pessoal"> 
+                <p>O empréstimo pessoal oferece taxas competitivas e pode ser utilizado para diversas finalidades, como consolidar dívidas ou realizar compras importantes.</p>
+                <p><a href="#" id="button">Saiba Mais</a></p>
+            </div>
+            <div class="emprestimo">
+                <h2>Empréstimo Consignado</h2>
+                <img src="Imagens/house-bills-elements-arrangement.jpg"Empréstimo Pessoal" class ="Pessoal"> 
+
+                <p>O empréstimo consignado é descontado diretamente na folha de pagamento, oferecendo taxas menores e maior facilidade na aprovação.</p>
+                <p><p><a href="#" id="button">Saiba Mais</a></p></p>
+            </div>
+        </section>
+        <section class="simulacao-faq">
+            <div class="simulacao">
+                <h2>Simulação de Empréstimo</h2>
+                <form>
+                    <label for="tipo-emprestimo">Tipo de Empréstimo:</label>
+                    <select id="tipo-emprestimo" name="tipo-emprestimo">
+                        <option value="pessoal">Pessoal</option>
+                        <option value="consignado">Consignado</option>
+                    </select>
+                    
+                    <label for="valor">Valor Desejado:</label>
+                    <select id="valor" name="valor">
+                        <option value="1000">R$ 1.000</option>
+                        <option value="5000">R$ 5.000</option>
+                        <option value="10000">R$ 10.000</option>
+                    </select>
+                    
+                    <label for="parcelas">Quantidade de Meses:</label>
+                    <select id="parcelas" name="parcelas">
+                        <option value="12">12 meses</option>
+                        <option value="24">24 meses</option>
+                        <option value="36">36 meses</option>
+                    </select>
+                    
+                    <div class="resultado">
+                        <p>Valor da Parcela: <strong>R$ 500,00</strong></p>
+                    </div>
+                    
+                    <button type="button">Seja nosso cliente</button>
+                </form>
+            </div>
+            <div class="faq">
+                <h2>Perguntas Frequentes</h2>
+                <div class="pergunta">
+                    <h3>Qual a taxa de juros do empréstimo pessoal?</h3>
+                    <p>A taxa de juros varia conforme o perfil do cliente e o valor solicitado.</p>
+                </div>
+                <div class="pergunta">
+                    <h3>Quem pode solicitar o empréstimo consignado?</h3>
+                    <p>O empréstimo consignado está disponível para aposentados, pensionistas e servidores públicos.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contatos: (00) 1234-5678 | contato@financeira.com</p>
+        <div class="social">
+            <a href="#">
+                <span class ="icon"><i class="bi bi-facebook"></i></span>
+                <span class="txt-link">Facebook</span>
+                </a>
+                | 
+                <a href="#">
+                    <span class ="icon"><i class="bi bi-instagram"></i></span>
+                    <span class="txt-link">Instagram</span>
+                    </a>
+                    | 
+                    <a href="#">
+                        <span class ="icon"><i class="bi bi-whatsapp"></i></span>
+                        <span class="txt-link">Whatsapp</span>
+                        </a>
+        </div>
+    </footer>
+</body>
+</html>
